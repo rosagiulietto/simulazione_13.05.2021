@@ -1,5 +1,7 @@
 import peewee
 
+# CREAZIONE DATABASE IMMOBILI.DB E RELATIVE TABELLE
+
 db = peewee.SqliteDatabase('immobili.db')
 
 class Prestigio(peewee.Model):
