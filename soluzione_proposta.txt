@@ -1,0 +1,20 @@
+In main.py è stata dichiarata una classe Immobile, la quale,
+oltre al metodo __init__, ha due metodi regolari:
+- per testare il primo, modifica_prezzo(), bisogna premere 
+4 nel menu: esso agisce su due istanze della classe
+precedentemente dichiarate, non già su dati persistenti. 
+- modifica_proprietario non è stato ultimato.
+
+Per lavorare con dati persistenti, occorre premere 1 e 2 dal menu.
+- La prima opzione richiama la funzione seleziona() la quale recupera
+tutti gli immobili dalla tabella scelta.
+- La seconda opzione permette di inserire un nuovo immobile nel database
+a seconda del prezzo indicato.
+
+In gestore_db.py è stato configurato il database immobili.db 
+e le relative tabelle, le quali devono essere intese come i 
+cataloghi dell'immobiliare.
+
+In funzioni.py sono state definite solo due delle 
+c.d. funzioni crud: seleziona() e inserisci().
+

@@ -38,4 +38,5 @@ def seleziona(peewee_model):
         immobili.append(immobile)
 
     db.close()
-     
+
+
