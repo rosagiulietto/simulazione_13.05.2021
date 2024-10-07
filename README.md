@@ -1,2 +1,2 @@
 # Simulazione
-## Simulazione prova tecnico pratica svolta in data 13/05/2021
+## Simulazione della prova svolta in data 13/05/2021
